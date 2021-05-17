@@ -506,7 +506,7 @@ articles = ci.articles
 articles
 
 # Now test out the scraping class
-download_folder = "C:\\Users\\grega\\Desktop\\Coindesk Test"
+download_folder = "<Insert local folder address w/ no path sep's at the end of the string>"
 
 si = scrape_index(articles, index_site, download_folder)
 
